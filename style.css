@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f1ea;
+  color: #2e3d2f;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #2f4f3a;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: #3f5f46;
+  color: white;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 46px;
+}
+
+.hero p {
+  margin: 15px 0 30px;
+}
+
+.btn {
+  padding: 12px 30px;
+  background: #d9c8a0;
+  color: #2e3d2f;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+/* ABOUT SECTION */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+}
+
+/* WORK CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 250px;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* DONATE */
+.donate {
+  background: #e5dfcf;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.btn.dark {
+  background: #2f4f3a;
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  background: #2f4f3a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
